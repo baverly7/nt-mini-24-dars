@@ -9,7 +9,35 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    
+    <header class="site-header py-3">
+      <div class="container">
+        <h1 class="h2">Top movies</h1>
+      </div>
+    </header>
+
+    <main class="site-content">
+      <div class="container">
+        <div class="row">
+          <section class="col-md-3">
+            <h2 class="h3">Filters</h2>
+            <form>
+              <div class="form-group">
+                <label for="search-input">Search</label>
+                <input class="form-control" type="search" name="search" id="search-input" placeholder="Search for movies">
+              </div>
+              <button class="btn btn-block btn-success" type="submit">Apply</button>
+            </form>
+          </section>
+
+          <section class="col-md-9">
+            <h2 class="h3">Movies' list</h2>
+            <hr>
+          </section>
+        </div>
+      </div>
+    </main>
+
 
 
     <script src="js/jquery-3.4.1.min.js"></script>
